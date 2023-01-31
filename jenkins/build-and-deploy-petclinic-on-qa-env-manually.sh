@@ -1,14 +1,3 @@
-- job name: build-and-deploy-petclinic-on-qa-env  
-- job type: Freestyle project
-- Source Code Management: Git
-      Repository URL: https://github.com/[your-github-account]/petclinic-microservices.git
-- Branches to build:
-      Branch Specifier (blank for 'any'): */release
-- Build:
-      Add build step: Execute Shell
-      Command:
-```
-```bash
 PATH="$PATH:/usr/local/bin:$HOME/bin"
 APP_NAME="petclinic"
 APP_REPO_NAME="clarusway-repo/petclinic-app-qa"
